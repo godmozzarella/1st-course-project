@@ -12,7 +12,7 @@ struct videocards{
 };
 typedef struct videocards cards;
 
-void print_card (cards* card, int* size);                                                //вывод звписей
+void print_card (cards* card, int* size);//вывод звписей
 void s_print_card (cards* s_card, int* s_i);                                             //вывод сортированных записей
 cards* input_card(cards* card, int* size, int me, int pe, int pr, char* br, char* gp);   //запись в фaйл
 cards* sort_memory(cards* card, int size, int f);                                        //сортировка по оъему памяти
